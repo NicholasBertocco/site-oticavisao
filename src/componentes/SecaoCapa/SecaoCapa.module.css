@@ -1,0 +1,28 @@
+.container{
+    background-image: url('../../../public/capa.png') ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+}
+.containerTexto div{
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.container h2{
+    font-size: 60px;
+    font-weight: 500;
+}
+.container p{
+    font-size: 40px;
+}
+.containerTexto {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}

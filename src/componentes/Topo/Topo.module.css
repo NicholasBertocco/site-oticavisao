@@ -1,0 +1,24 @@
+.Topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+}
+.menu{
+    display:flex;
+}
+
+.Link {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.containerTopo{
+    display: flex;
+    justify-content: space-between;
+    /* Para que o max-width funcione preciso definir que o width seja 100% do espaço definido*/
+    max-width: 1080px; 
+    width: 100%;
+}
